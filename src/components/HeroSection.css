@@ -1,0 +1,117 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heroSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+}
+.heroSection> h1{
+    font-size:60px;
+    margin-bottom: 10px;
+    color: white;
+}
+.heroSection> h1> span{
+    color: var(--main-green);
+}
+.heroSection> p{
+    margin-bottom: 20px;
+    color: var(--gray);
+}
+.buttons{
+    margin: 20px;
+}
+.Qbtn > a{
+    color: var(--dark-green) !important;
+    text-decoration: none;
+}
+.Cbtn > a{
+    color: var(--dark-green) !important;
+    text-decoration: none;
+}
+.Qbtn{
+    padding: 10px 20px;
+    background-color: var(--main-green);
+    color: var(--black);
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+.Cbtn{
+    padding: 10px 20px;
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+.heroSection > img{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    .heroSection> h1{
+        font-size:40px;
+        width: fit-content;
+    }
+    .heroSection>p{
+        padding: 10px 50px;
+    }
+    .heroSection > img{
+        width: 600px;
+        height: 300px;
+       
+    }
+}
+@media only screen and (max-width: 640px){
+    .heroSection>p{
+        font-size: 14px;
+  
+    }
+    .heroSection > img{
+        width: 520px;
+        height: 300px;
+       
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .heroSection > img{
+        width: 300px;
+        height: 180px;
+       
+    }
+  
+}
+
+@media only screen and (max-width: 375px){
+    .heroSection>h1{
+        font-size: 18px;
+        
+    }
+    .heroSection>p{
+      font-size: 10px;
+      margin: 0 auto;
+  
+    }
+    .heroSection > img{
+        width: 300px;
+        height: 150px;
+       
+    }
+}

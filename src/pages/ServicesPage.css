@@ -1,0 +1,21 @@
+.content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+}
+
+.conten>h1{
+    padding: 50px;  
+    font-size: 30px;
+ 
+}
+
+.content>p{
+    font-size: 20px;
+    padding: 50px;
+    font-weight: bold;
+    color: var(--dark-green);
+}
+

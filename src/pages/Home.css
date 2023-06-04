@@ -1,0 +1,24 @@
+
+
+.container{
+    background: url(https://w7.pngwing.com/pngs/275/820/png-transparent-trend-pattern-background-textured-textures-black-texture-poster-banner.png) rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   object-fit: contain;
+    height:650px;
+    background-blend-mode: multiply;
+    max-width: 100%;
+}
+@media only screen and (max-width: 768px){
+    .container{
+        height:600px;
+    }  
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        height:400px;
+    }  
+}
+

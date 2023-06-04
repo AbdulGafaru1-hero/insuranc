@@ -1,0 +1,11 @@
+.app{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* width:100%; */
+}
+@media only screen and (max-width: 320px){
+   .app{
+    width: 320px;
+   }
+}

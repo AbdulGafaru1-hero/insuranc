@@ -1,0 +1,193 @@
+.partners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 240px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.partners > img{
+    width: 100px;
+
+}
+.partners> .fedex{
+    width: 70px;
+}
+
+.salesCopy{
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   max-width: 900px;
+   gap: 30px;
+   padding: 50px 40px;
+}
+
+.salesCopy > h3{
+    font-size: 30px;
+    max-width: 400px;
+}
+.salesCopy > p{
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 400;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   max-width: 900px;
+   margin: 20px auto;
+   /* margin-top: 70px; */
+ cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.serviceIcons{
+    font-size: 50px;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.3);
+    margin-bottom: 10px;
+}
+.serviceIcons.medical{
+    color: red ;
+}
+
+.service > p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+    .partners{
+        margin: 0 auto;
+        padding: 0 130px;
+        padding-bottom: 50px;
+    }
+    .salesCopy{
+        margin: 0 auto;
+       max-width: 860px;
+       gap: 30px;
+       
+    }
+    .salesCopy > p{
+        max-width: 450px;
+    }
+    .services{
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .partners{
+        gap:20px;
+        margin: 0 auto;
+        padding: 0 100px;
+        padding-bottom: 50px;
+    }
+    .salesCopy{
+        margin: 50px auto;
+       gap: 30px;
+       padding: 0 70px;
+       
+    }
+    .salesCopy>h3{
+      font-size: 20px;
+      width: fit-content;
+    }
+    .services{
+        max-width:620px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .partners{
+        padding: 0px 50px;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .services{
+        max-width:560px;
+        gap: 10px;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .partners{
+        margin-top: -60px;
+        gap:5px;
+    }
+   
+    .partners > img{
+        width: 45px;
+    
+    }
+    .partners> .fedex{
+        width: 35px;
+    }
+    .salesCopy{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;    
+    }
+    .salesCopy>p{
+        width: max-content;
+        font-size: 12px;
+    }
+    .services{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+     }
+}
+
+
+@media only screen and (max-width: 375px){
+    .partners{
+        margin-top: -60px;
+        padding: 0px 40px;
+        gap: 10px;   
+    }
+    .partners > img{
+        width: 50px;
+    
+    }
+    .partners> .fedex{
+        width: 40px;
+    }
+    .salesCopy{
+        flex-direction: column;
+    }
+    .salesCopy>h3{
+        font-size: 16px;   
+        text-align: center; 
+    }
+    .salesCopy>p{
+        font-size: 12px;   
+        text-align: center; 
+        width: max-content;
+        margin: -10px auto;
+        margin-left: -30px;
+    }
+    .services{
+       margin: 0 auto;
+       align-items: center;
+       justify-content: center;
+    }
+}
